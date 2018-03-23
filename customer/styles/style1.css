@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{background:#39C;}
+
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin: auto;
+}
+.header_wrapper{
+	width:1000px;
+	height:100px;
+	background:#FFF;
+	
+}
+.content_wrapper{
+	width:1000px;
+	height:auto;
+	background:#EFDEDE;
+}
+
+
+#right_content{
+	width:800px;
+	height:auto;
+	background:#B0E2FF;
+	float: right;
+}
+
+#left_content{
+	width:200px;
+	height:auto;
+	background:#2658A6;
+	float:left;
+}
+
+#sidebar_title{
+	background:black;
+	color:white;
+	padding: 10px;
+	font-size: 22px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+#cats{
+	color:#FDF8F8;
+	text-align: center;
+	padding: 5px;
+}
+#cats li{
+	list-style: none;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px;
+}
+#cats a{color: #FFF;font-size: 20px;text-decoration: underline;font-weight: bold;}
+
+
+
+
+#navbar{
+	width: 1000px;
+	height: 50px;
+	background: #3B2683;
+	color: azure;
+}
+
+#menu{
+	padding: 0;
+	line-height:36px;
+	margin-top: 5px;
+	float:left; 
+}
+     #menu li{
+	list-style: none;
+	display: inline-block;
+   }
+     #menu a{
+	color:white;
+	text-decoration:none;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+     }
+    #menu a:hover{
+	text-decoration: underline;
+	color:#682C66;
+	font-weight: bolder;
+    }
+   #form{
+	
+	   line-height: 50px;
+	   float:right;
+	   padding-right: 5px;
+   }
+
+   
+
+.footer{
+	width:1000px;
+	height: 50px;
+	background:#682C66;
+	color:black;
+	clear:both;
+}
+   #navbar1{
+	width: 800px;
+	height: 50px;
+	background:#39C;
+	color: azure;
+}
+	#headline_content{float:right;}
+	
+	#product_box {
+		width:780px;
+		padding:10px;
+		margin-left:30px;
+		margin-top:10px;
+		margin-bottom:10px;
+		text-align:center;
+	}
+	
+	#single_product{
+		float:left;
+		padding:10px;
+		margin-right:10px;
+	}
+	#single_product img{
+	border:2px solid #333;}
+		
+		
+		
+
+	 
+	
+	
+	
+	
